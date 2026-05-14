@@ -1,0 +1,50 @@
+# Node.js (Frontend & Backend)
+node_modules/
+dist/
+build/
+.next/
+out/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp*
+.pnp.js
+
+# Python (NLP Service)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+ENV/
+bin/
+lib/
+include/
+share/
+.pytest_cache/
+.python-version
+
+# Environment Variables (Secrets)
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+backend/.env
+frontend/.env
+nlp_service/.env
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Project specific
+wisata.json
