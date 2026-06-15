@@ -9,9 +9,11 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [allWisata, setAllWisata] = useState([]);
 
+  const [hasSearched, setHasSearched] = useState(false);
+
   useEffect(() => {
     // Fetch all wisata initially
-    fetch("http://localhost:4000/api/wisata")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api'}/wisata`)
       .then((res) => res.json())
       .then((data) => setAllWisata(data))
       .catch((err) => console.error("Failed to load wisata", err));
@@ -21,30 +23,33 @@ export default function Home() {
     e.preventDefault();
     if (!query.trim()) {
       setResults([]);
+      setHasSearched(false);
       return;
     }
 
     setIsLoading(true);
+    setHasSearched(true);
     try {
-      const res = await fetch("http://localhost:4000/api/search", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api'}/search`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
       });
       const data = await res.json();
       if (data.status === "success") {
-        setResults(data.results);
+        setResults(data.results || []);
       } else {
         setResults([]);
       }
     } catch (err) {
       console.error("Search failed", err);
+      setResults([]);
     } finally {
       setIsLoading(false);
     }
   };
 
-  const displayData = results.length > 0 ? results : allWisata;
+  const displayData = hasSearched ? results : allWisata;
 
   return (
     <main className="min-h-screen relative overflow-hidden">
@@ -95,15 +100,16 @@ export default function Home() {
 
       {/* Results Section */}
       <section className="max-w-6xl mx-auto px-6 pb-32 relative z-10">
-        {results.length > 0 && (
+        {hasSearched && (
           <div className="mb-8 flex items-center justify-between">
             <h2 className="text-2xl font-heading font-semibold">
-              Rekomendasi untukmu
+              {results.length > 0 ? "Rekomendasi untukmu" : "Hasil Pencarian"}
             </h2>
             <button
               onClick={() => {
                 setResults([]);
                 setQuery("");
+                setHasSearched(false);
               }}
               className="text-sm text-slate-400 hover:text-white transition-colors"
             >
@@ -112,7 +118,7 @@ export default function Home() {
           </div>
         )}
 
-        {results.length === 0 && allWisata.length > 0 && (
+        {!hasSearched && allWisata.length > 0 && (
           <div className="mb-8">
             <h2 className="text-2xl font-heading font-semibold">
               Jelajahi Semua Wisata
@@ -124,24 +130,21 @@ export default function Home() {
           {displayData.map((item: any) => (
             <div
               key={item.id}
-              className="group glass rounded-2xl overflow-hidden hover:border-primary-500/30 transition-all duration-300 hover:shadow-2xl hover:shadow-primary-500/10 hover:-translate-y-1"
+              id={`wisata-${item.id}`}
+              className="group glass rounded-2xl overflow-hidden hover:border-primary-500/30 transition-all duration-300 hover:shadow-2xl hover:shadow-primary-500/10 hover:-translate-y-1 flex flex-col"
             >
-              <div className="h-48 bg-slate-800 relative overflow-hidden">
-                {/* Placeholder Image styling since we don't have actual images */}
-                <div className="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
-                  <Navigation2 className="w-12 h-12 text-slate-700" />
+              <div className="p-6 flex-1 flex flex-col">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="bg-slate-800 px-3 py-1 rounded-full text-xs font-medium border border-slate-700 text-slate-300">
+                    {item.kategori_wisata}
+                  </span>
+                  {item.similarity_score && (
+                    <div className="bg-primary-500/20 px-3 py-1 rounded-full text-xs font-medium text-primary-400 flex items-center gap-1 border border-primary-500/30">
+                      <Star className="w-3 h-3 fill-primary-400" />
+                      {Math.round(item.similarity_score * 100)}% Match
+                    </div>
+                  )}
                 </div>
-                <div className="absolute top-4 left-4 bg-black/50 backdrop-blur-md px-3 py-1 rounded-full text-xs font-medium border border-white/10">
-                  {item.kategori_wisata}
-                </div>
-                {item.similarity_score && (
-                  <div className="absolute top-4 right-4 bg-primary-500/80 backdrop-blur-md px-3 py-1 rounded-full text-xs font-medium text-white flex items-center gap-1 shadow-lg">
-                    <Star className="w-3 h-3 fill-white" />
-                    {Math.round(item.similarity_score * 100)}% Match
-                  </div>
-                )}
-              </div>
-              <div className="p-6">
                 <div className="flex items-start justify-between mb-2">
                   <h3 className="text-xl font-heading font-semibold group-hover:text-primary-500 transition-colors">
                     {item.nama_wisata}
