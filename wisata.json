@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "nama_wisata": "Pulau Pahawang",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Destinasi snorkeling populer dengan keindahan bawah laut mempesona. Terumbu karang terjaga dan air laut jernih.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Snorkeling gear, penginapan apung, sewa perahu",
+    "harga_tiket": 30000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 2,
+    "nama_wisata": "Taman Nasional Way Kambas",
+    "kategori_wisata": "Ekowisata",
+    "deskripsi": "Pusat konservasi gajah sumatera. Edukasi satwa liar dan pelestarian alam di habitat asli.",
+    "lokasi": "Lampung Timur",
+    "fasilitas": "Pusat informasi, pemandu wisata, area parkir",
+    "harga_tiket": 15000,
+    "jam_buka": "08.00 - 16.00"
+  },
+  {
+    "id": 3,
+    "nama_wisata": "Pantai Sari Ringgit",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai dengan suasana tenang dan pasir putih. Cocok untuk keluarga dan menikmati sunset yang estetik.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Dermaga, kantin, spot foto, gazebo",
+    "harga_tiket": 20000,
+    "jam_buka": "07.00 - 19.00"
+  },
+  {
+    "id": 4,
+    "nama_wisata": "Puncak Mas",
+    "kategori_wisata": "Wisata Alam & Modern",
+    "deskripsi": "Wisata perbukitan dengan *city light* memukau. Area ramah anak dengan banyak spot foto *instagramable*.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Rumah pohon, mushola, food court, wahana sepeda gantung",
+    "harga_tiket": 20000,
+    "jam_buka": "08.00 - 21.00"
+  },
+  {
+    "id": 5,
+    "nama_wisata": "Pulau Kelagian Kecil",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pulau tak berpenghuni dengan gradasi air laut biru. Memiliki area bermain dan banana boat yang seru.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Sewa alat renang, warung kecil, persewaan kano",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 6,
+    "nama_wisata": "Pantai Mutun",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai keluarga paling dekat dari kota. Ombak tenang, aman untuk anak-anak bermain air.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Waterboom mini, perahu penyeberangan, gazebo",
+    "harga_tiket": 25000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 7,
+    "nama_wisata": "Lembah Hijau",
+    "kategori_wisata": "Taman Hiburan",
+    "deskripsi": "Taman wisata terpadu dengan kebun binatang mini. Rekreasi edukatif bagi pelajar dan keluarga.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Water park, taman satwa, area kemah",
+    "harga_tiket": 50000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 8,
+    "nama_wisata": "Pantai Gigi Hiu",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Gugusan karang tajam artistik menyerupai gigi hiu. Lokasi favorit fotografi lanskap profesional.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Pemandu lokal, jalur treking",
+    "harga_tiket": 15000,
+    "jam_buka": "06.00 - 17.30"
+  },
+  {
+    "id": 9,
+    "nama_wisata": "Bendungan Margo Tirto",
+    "kategori_wisata": "Wisata Air",
+    "deskripsi": "Situs peninggalan kolonial dengan struktur unik di bawah air. Nuansa sejuk dan sangat menenangkan.",
+    "lokasi": "Pringsewu",
+    "fasilitas": "Spot foto, area parkir, warung makan",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 10,
+    "nama_wisata": "Bukit Sakura",
+    "kategori_wisata": "Wisata Modern",
+    "deskripsi": "Taman bertema Jepang dengan ornamen bunga sakura. Menyediakan penyewaan kimono untuk foto unik.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Sewa kimono, kantin, area bermain anak",
+    "harga_tiket": 15000,
+    "jam_buka": "08.00 - 21.00"
+  },
+  {
+    "id": 11,
+    "nama_wisata": "Danau Ranau (Lumbok)",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Danau terbesar kedua di Sumatera dengan latar Gunung Seminung. Udara pegunungan yang sangat dingin.",
+    "lokasi": "Lampung Barat",
+    "fasilitas": "Penginapan, dermaga, restoran ikan bakar",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 12,
+    "nama_wisata": "Pantai Tanjung Setia",
+    "kategori_wisata": "Wisata Olahraga",
+    "deskripsi": "Surga bagi peselancar mancanegara. Memiliki ombak kelas dunia yang menantang adrenalin.",
+    "lokasi": "Pesisir Barat",
+    "fasilitas": "Surf resort, persewaan papan selancar, cafe",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 13,
+    "nama_wisata": "Air Terjun Putri Malu",
+    "kategori_wisata": "Wisata Petualangan",
+    "deskripsi": "Air terjun tersembunyi dengan jalur *offroad*. Keindahan alam asri dengan debit air deras.",
+    "lokasi": "Way Kanan",
+    "fasilitas": "Ojek gunung, camping ground",
+    "harga_tiket": 20000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 14,
+    "nama_wisata": "Kawasan Wisata Suoh",
+    "kategori_wisata": "Geowisata",
+    "deskripsi": "Fenomena alam geotermal berupa danau keramik dan kawah aktif. Pemandangan eksotis dan langka.",
+    "lokasi": "Lampung Barat",
+    "fasilitas": "Pemandu lokal, jalur jalan kaki",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 16.00"
+  },
+  {
+    "id": 15,
+    "nama_wisata": "Pantai Klara",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Singkatan dari Kelapa Rapat. Pantai dangkal yang tenang, ideal untuk berenang balita.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Sewa ban, gazebo, parkir luas",
+    "harga_tiket": 25000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 16,
+    "nama_wisata": "Menara Siger",
+    "kategori_wisata": "Ikon Budaya",
+    "deskripsi": "Titik nol Sumatera dengan arsitektur mahkota adat Lampung. Pemandangan Selat Sunda yang ikonik.",
+    "lokasi": "Bakauheni",
+    "fasilitas": "Area pandang, pusat informasi, toko suvenir",
+    "harga_tiket": 10000,
+    "jam_buka": "06.00 - 22.00"
+  },
+  {
+    "id": 17,
+    "nama_wisata": "Pantai Minang Rua",
+    "kategori_wisata": "Ekowisata Bahari",
+    "deskripsi": "Pantai konservasi penyu dengan gua alam yang unik. Suasana petualangan yang kental.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Canoe, homestay, penangkaran penyu",
+    "harga_tiket": 10000,
+    "jam_buka": "07.00 - 17.00"
+  },
+  {
+    "id": 18,
+    "nama_wisata": "Mata Air Way Sumpuk",
+    "kategori_wisata": "Wisata Air",
+    "deskripsi": "Pemandian alami dengan air kristal transparan. Sangat populer untuk sesi foto bawah air.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Kamar ganti, warung, spot foto underwater",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 19,
+    "nama_wisata": "Pulau Pisang",
+    "kategori_wisata": "Wisata Budaya & Bahari",
+    "deskripsi": "Pulau terpencil dengan sejarah kain Tapis. Kehidupan desa yang damai dan pantai bersih.",
+    "lokasi": "Pesisir Barat",
+    "fasilitas": "Homestay lokal, motor sewaan",
+    "harga_tiket": 15000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 20,
+    "nama_wisata": "Pantai Marina",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai dengan batuan karang besar yang eksotis. Deburan ombak keras memberikan kesan megah.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Mushola, spot foto, gazebo",
+    "harga_tiket": 30000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 21,
+    "nama_wisata": "Wira Garden",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Taman rekreasi sungai yang asri. Menyediakan area perkemahan keluarga di tepi aliran air.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Camping ground, pondokan, aula",
+    "harga_tiket": 15000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 22,
+    "nama_wisata": "Pantai Sebalang",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Tempat nongkrong kekinian dengan konsep *beach club*. Pemandangan matahari terbenam paling romantis.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Live music, bean bag, cafe, mushola",
+    "harga_tiket": 20000,
+    "jam_buka": "10.00 - 22.00"
+  },
+  {
+    "id": 23,
+    "nama_wisata": "Air Terjun Curup Gangsa",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Air terjun lebar menyerupai tirai raksasa. Dikelilingi hutan yang masih alami dan asri.",
+    "lokasi": "Way Kanan",
+    "fasilitas": "Tangga akses, toilet, warung",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 24,
+    "nama_wisata": "Kampung Kopi Rigis Jaya",
+    "kategori_wisata": "Agrowisata",
+    "deskripsi": "Edukasi budidaya kopi robusta dari hulu ke hilir. Udara sejuk pegunungan dan pengalaman memetik kopi.",
+    "lokasi": "Lampung Barat",
+    "fasilitas": "Kedai kopi, homestay, kebun kopi",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 25,
+    "nama_wisata": "Pantai Melasti",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Replika suasana Bali di Lampung. Terdapat pura di pinggir pantai dan arsitektur khas Bali.",
+    "lokasi": "Pesisir Barat",
+    "fasilitas": "Pura, spot foto, penginapan",
+    "harga_tiket": 10000,
+    "jam_buka": "06.00 - 18.00"
+  },
+  {
+    "id": 26,
+    "nama_wisata": "Bukit Aslan",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Destinasi perbukitan dengan instalasi seni modern. Menawarkan pemandangan teluk Lampung yang spektakuler saat malam hari.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Jalur trekking, area bermain, food court, instalasi seni",
+    "harga_tiket": 35000,
+    "jam_buka": "14.00 - 22.00"
+  },
+  {
+    "id": 27,
+    "nama_wisata": "Pulau Mahitam",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pulau unik dengan fenomena pasir timbul. Memiliki mercusuar tua yang memberikan kesan historis dan misterius.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Pasir timbul, spot snorkeling, mercusuar",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 28,
+    "nama_wisata": "Air Terjun Lembah Pelangi",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Air terjun bertingkat dengan uap air yang sering membentuk pelangi. Suasana rimbun dan sangat asri.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Pemandian air panas, jalur setapak, warung lokal",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 29,
+    "nama_wisata": "Pantai Kila (KM 0)",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai berbatu karang dengan ombak besar. Tempat yang sunyi untuk melarikan diri dari keramaian kota.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Area parkir, spot foto tebing, gazebo",
+    "harga_tiket": 10000,
+    "jam_buka": "06.00 - 18.00"
+  },
+  {
+    "id": 30,
+    "nama_wisata": "Kebun Raya Liwa",
+    "kategori_wisata": "Agrowisata",
+    "deskripsi": "Taman botani dengan koleksi tanaman hias dan endemik. Udara pegunungan yang segar dan kabut pagi yang cantik.",
+    "lokasi": "Lampung Barat",
+    "fasilitas": "Taman tematik, gazebo, pusat informasi, kantin",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 16.30"
+  },
+  {
+    "id": 31,
+    "nama_wisata": "Gua Pandan",
+    "kategori_wisata": "Wisata Petualangan",
+    "deskripsi": "Eksplorasi gua alam dengan ornamen stalaktit dan stalagmit yang unik. Menawarkan pengalaman caving yang menantang.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Pemandu gua, alat penerangan, jalur trekking",
+    "harga_tiket": 20000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 32,
+    "nama_wisata": "Pantai Embe",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai berpasir halus dengan manajemen profesional. Fasilitas lengkap dan sangat ramah untuk rombongan kantor.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Restoran, aula, lapangan futsal pantai, pondokan",
+    "harga_tiket": 20000,
+    "jam_buka": "07.00 - 20.00"
+  },
+  {
+    "id": 33,
+    "nama_wisata": "Puncak Tamiangan",
+    "kategori_wisata": "Wisata Petualangan",
+    "deskripsi": "Negeri di atas awan Lampung. Lokasi favorit untuk berkemah dan melihat sunrise di atas hamparan kabut.",
+    "lokasi": "Lampung Barat",
+    "fasilitas": "Camping ground, penyewaan tenda, warung kopi",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 34,
+    "nama_wisata": "Way Belerang",
+    "kategori_wisata": "Wisata Relaksasi",
+    "deskripsi": "Pemandian air panas belerang alami di kaki Gunung Rajabasa. Dipercaya bermanfaat untuk kesehatan kulit.",
+    "lokasi": "Kalianda",
+    "fasilitas": "Kolam air panas, kamar mandi bilas, taman, kantin",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 21.00"
+  },
+  {
+    "id": 35,
+    "nama_wisata": "Pantai Labuhan Jukung",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pusat keramaian di pesisir barat. Tempat terbaik menikmati kuliner laut sambil menonton peselancar.",
+    "lokasi": "Krui",
+    "fasilitas": "Jogging track, food court, arena bermain, toilet",
+    "harga_tiket": 5000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 36,
+    "nama_wisata": "Bendungan Way Rarem",
+    "kategori_wisata": "Wisata Air",
+    "deskripsi": "Waduk luas dengan panorama pegunungan. Tersedia wisata perahu keliling bendungan yang menenangkan.",
+    "lokasi": "Lampung Utara",
+    "fasilitas": "Perahu wisata, spot memancing, gazebo",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.30"
+  },
+  {
+    "id": 37,
+    "nama_wisata": "Hutan Kera Tirtosari",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Hutan kota habitat ratusan kera liar yang ramah. Wisata interaktif memberi makan satwa di tengah kota.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Area parkir, penjual pakan kera, jalur pejalan kaki",
+    "harga_tiket": 5000,
+    "jam_buka": "07.00 - 17.00"
+  },
+  {
+    "id": 38,
+    "nama_wisata": "Pantai Ketapang",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Gerbang utama menuju pulau-pulau eksotis. Memiliki dermaga yang rapi dengan pemandangan perahu nelayan.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Dermaga penyeberangan, warung makan, parkir inap",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 39,
+    "nama_wisata": "Air Terjun Way Lalaan",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Air terjun bersejarah sejak zaman kolonial. Memiliki tangga beton yang memudahkan akses pengunjung.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Tangga akses, mushola, shelter, taman mini",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 40,
+    "nama_wisata": "Pantai Bagus",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai dengan deretan pohon kelapa yang estetik. Sangat teduh dan cocok untuk piknik keluarga besar.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Area piknik, gazebo, panggung hiburan",
+    "harga_tiket": 20000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 41,
+    "nama_wisata": "Muncak Teropong Laut",
+    "kategori_wisata": "Wisata Modern",
+    "deskripsi": "Spot foto di ketinggian dengan latar belakang laut biru. Sangat hits di media sosial bagi kalangan muda.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Dek observasi, cafe mini, spot foto selfie",
+    "harga_tiket": 15000,
+    "jam_buka": "08.00 - 20.00"
+  },
+  {
+    "id": 42,
+    "nama_wisata": "Pantai Teluk Hantu",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Meskipun namanya seram, pantai ini memiliki air kristal yang sangat jernih dan suasana privat.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Area camping mandiri, spot memancing",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 43,
+    "nama_wisata": "Waterpark Citra Garden",
+    "kategori_wisata": "Taman Hiburan",
+    "deskripsi": "Wahana permainan air modern di kawasan elit. Memiliki berbagai tipe kolam dan seluncuran yang memacu adrenalin.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Slide spiral, kolam arus, loker, kantin",
+    "harga_tiket": 45000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 44,
+    "nama_wisata": "Pantai Batu Lapis",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Fenomena geologi unik berupa tebing batu yang berlapis-lapis. Sangat eksotis dan jarang ditemukan di tempat lain.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Jalur setapak, pemandu lokal",
+    "harga_tiket": 20000,
+    "jam_buka": "07.00 - 17.00"
+  },
+  {
+    "id": 45,
+    "nama_wisata": "Danau Suoh (Danau Minyak)",
+    "kategori_wisata": "Geowisata",
+    "deskripsi": "Danau dengan permukaan air yang berkilau seperti minyak. Dikelilingi oleh aktivitas panas bumi aktif.",
+    "lokasi": "Lampung Barat",
+    "fasilitas": "Pemandu wisata, ojek wisata, warung",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 16.00"
+  },
+  {
+    "id": 46,
+    "nama_wisata": "Pantai Sawmill",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Garis pantai yang sangat panjang dengan ombak yang menderu. Populer sebagai tempat nongkrong sore warga lokal.",
+    "lokasi": "Pesisir Barat",
+    "fasilitas": "Area parkir luas, penjual jajanan",
+    "harga_tiket": 5000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 47,
+    "nama_wisata": "Air Terjun Ciupang",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Air terjun dengan dinding batu yang lebar dan bertekstur. Sangat indah untuk latar belakang foto potret.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Area parkir, tangga bambu, warung",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 48,
+    "nama_wisata": "Pantai Pasir Putih",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Wisata legendaris Lampung dengan pasir halus. Dekat dengan pusat kota dan memiliki akses transportasi mudah.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Sewa perahu, shelter, kamar mandi bilas",
+    "harga_tiket": 20000,
+    "jam_buka": "07.00 - 19.00"
+  },
+  {
+    "id": 49,
+    "nama_wisata": "Bukit Pangonan",
+    "kategori_wisata": "Wisata Keluarga",
+    "deskripsi": "Taman rekreasi perbukitan dengan banyak wahana permainan tradisional dan spot foto kreatif.",
+    "lokasi": "Pringsewu",
+    "fasilitas": "Flying fox, jembatan gantung, food court",
+    "harga_tiket": 15000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 50,
+    "nama_wisata": "Pantai Alau Alau",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai eksklusif dengan butiran pasir yang menyerupai merica. Suasana tenang dan sangat privat.",
+    "lokasi": "Kalianda",
+    "fasilitas": "Bungalow, restoran pinggir pantai, area santai",
+    "harga_tiket": 30000,
+    "jam_buka": "07.00 - 20.00"
+  },
+  {
+    "id": 51,
+    "nama_wisata": "Puncak PJPR",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Titik pandang perbukitan untuk melihat garis pantai Lampung dari ketinggian. Suasana sejuk dan sangat hening.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Gardu pandang, area parkir, warung kopi",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 52,
+    "nama_wisata": "Pantai Wartawan",
+    "kategori_wisata": "Wisata Fenomena Alam",
+    "deskripsi": "Memiliki sumber air panas yang muncul di bibir pantai. Fenomena alam unik di mana air laut bersinggungan dengan uap panas bumi.",
+    "lokasi": "Rajabasa",
+    "fasilitas": "Kolam air panas alami, gazebo, kedai makanan",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 19.00"
+  },
+  {
+    "id": 53,
+    "nama_wisata": "Pulau Condong",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pulau berbentuk kerucut dengan rimbun pepohonan. Sangat cocok untuk kegiatan rock climbing ringan dan snorkeling.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Sewa perahu, jalur pendakian singkat, area berenang",
+    "harga_tiket": 20000,
+    "jam_buka": "07.00 - 17.00"
+  },
+  {
+    "id": 54,
+    "nama_wisata": "Air Terjun Anglo",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Hidden gem dengan akses jalan yang sudah tertata. Aliran airnya sangat stabil dan jernih meski di musim kemarau.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Jalan setapak beton, toilet, gazebo",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 55,
+    "nama_wisata": "Pantai Karang Bebai",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Hamparan batu karang luas dengan cekungan air menyerupai kolam pribadi. Destinasi tenang jauh dari hiruk pikuk.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Spot foto alam, area parkir alami",
+    "harga_tiket": 10000,
+    "jam_buka": "06.00 - 18.00"
+  },
+  {
+    "id": 56,
+    "nama_wisata": "Taman Wisata Bumi Kedaton",
+    "kategori_wisata": "Ekowisata",
+    "deskripsi": "Kombinasi taman satwa dan resort budaya. Memberikan pengalaman menginap dengan nuansa pedesaan Lampung yang kental.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Kolam renang, kebun binatang kecil, penginapan",
+    "harga_tiket": 25000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 57,
+    "nama_wisata": "Pulau Tegal Mas",
+    "kategori_wisata": "Wisata Bahari Luxury",
+    "deskripsi": "Maladewa-nya Lampung. Menawarkan villa apung eksklusif dengan pemandangan laut biru kehijauan yang sangat jernih.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Villa apung, snorkeling, jet ski, restoran",
+    "harga_tiket": 50000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 58,
+    "nama_wisata": "Agrowisata Lembah Akasia",
+    "kategori_wisata": "Agrowisata",
+    "deskripsi": "Taman bunga dan kolam pemancingan keluarga. Udara bersih dengan pemandangan persawahan yang sangat asri.",
+    "lokasi": "Pringsewu",
+    "fasilitas": "Penyewaan alat pancing, spot foto, kantin",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 59,
+    "nama_wisata": "Pantai Batu Tihang",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Terdapat tiang batu raksasa setinggi 20 meter di pinggir pantai. Ikonik sebagai latar belakang foto estetik.",
+    "lokasi": "Pesisir Barat",
+    "fasilitas": "Warung makan, area parkir, spot foto tebing",
+    "harga_tiket": 5000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 60,
+    "nama_wisata": "Air Terjun Sinar Tiga",
+    "kategori_wisata": "Wisata Petualangan",
+    "deskripsi": "Memerlukan tracking melalui perkebunan cokelat. Sangat alami dengan debit air yang kuat dan menyegarkan.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Pemandu warga lokal, jalur setapak alami",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 16.00"
+  },
+  {
+    "id": 61,
+    "nama_wisata": "Kawah Keramik Suoh",
+    "kategori_wisata": "Geowisata",
+    "deskripsi": "Lantai alam dari endapan belerang yang mengeras menyerupai keramik. Pemandangan surreal yang sangat eksotis.",
+    "lokasi": "Lampung Barat",
+    "fasilitas": "Jalur kayu, pemandu ahli, pusat informasi",
+    "harga_tiket": 20000,
+    "jam_buka": "07.00 - 15.00"
+  },
+  {
+    "id": 62,
+    "nama_wisata": "Pantai Terbaya",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai landai dengan ombak yang bersahabat. Sering digunakan untuk acara outbound perusahaan dan keluarga.",
+    "lokasi": "Kota Agung",
+    "fasilitas": "Aula terbuka, lapangan rumput, gazebo",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 63,
+    "nama_wisata": "Bukit Idaman",
+    "kategori_wisata": "Wisata Modern",
+    "deskripsi": "Taman di perbukitan dengan latar belakang Gunung Tanggamus. Cocok untuk bersantai di sore hari (ngabuburit).",
+    "lokasi": "Gisting",
+    "fasilitas": "Taman bunga, spot foto, cafe, mushola",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 20.00"
+  },
+  {
+    "id": 64,
+    "nama_wisata": "Pantai Ketang",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai dengan hamparan batu kecil dan air yang jernih. Lokasi favorit untuk memancing ikan karang.",
+    "lokasi": "Kalianda",
+    "fasilitas": "Spot pancing, area teduh, warung keliling",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 65,
+    "nama_wisata": "Air Terjun Tanah Abang",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Air terjun dengan kolam alami yang dalam di bawahnya. Sangat direkomendasikan bagi yang suka melompat tebing.",
+    "lokasi": "Way Kanan",
+    "fasilitas": "Area berenang, tempat ganti baju sederhana",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 66,
+    "nama_wisata": "Pantai Cemara",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Dikelilingi pohon cemara udang yang rimbun. Memberikan suasana sejuk meski berada di pinggir laut.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Hammock, bangku taman, area parkir luas",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 19.00"
+  },
+  {
+    "id": 67,
+    "nama_wisata": "Puncak Sumber Jaya",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Hamparan kebun teh dan kopi di ketinggian. Pemandangan hijau sejauh mata memandang yang sangat relaks.",
+    "lokasi": "Lampung Barat",
+    "fasilitas": "Pondok observasi, kedai kopi lokal, jalur trekking",
+    "harga_tiket": 5000,
+    "jam_buka": "06.00 - 18.00"
+  },
+  {
+    "id": 68,
+    "nama_wisata": "Pantai Guci Batu Kapal",
+    "kategori_wisata": "Wisata Sejarah & Alam",
+    "deskripsi": "Legenda batu yang menyerupai kapal laut. Memiliki tekstur dinding batu yang unik akibat abrasi air laut.",
+    "lokasi": "Kalianda",
+    "fasilitas": "Spot foto sejarah, gazebo, toilet",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 69,
+    "nama_wisata": "Kuala Kambas",
+    "kategori_wisata": "Ekowisata",
+    "deskripsi": "Muara sungai tempat bertemunya air tawar dan laut. Habitat burung migran dan buaya muara yang dilindungi.",
+    "lokasi": "Lampung Timur",
+    "fasilitas": "Sewa kapal susur sungai, pemandu hutan",
+    "harga_tiket": 20000,
+    "jam_buka": "08.00 - 16.00"
+  },
+  {
+    "id": 70,
+    "nama_wisata": "Pantai Way Jambu",
+    "kategori_wisata": "Wisata Olahraga",
+    "deskripsi": "Dikenal sebagai 'The Pipeline' Lampung. Ombak kidal (left-hander) yang sangat konsisten untuk surfing profesional.",
+    "lokasi": "Pesisir Barat",
+    "fasilitas": "Surf camp, penyewaan papan, instruktur",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 71,
+    "nama_wisata": "Tabek Indah",
+    "kategori_wisata": "Wisata Keluarga",
+    "deskripsi": "Taman rekreasi lengkap dengan fasilitas outbound dan paintball. Sangat populer untuk libur sekolah.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Paintball arena, flying fox, kolam renang",
+    "harga_tiket": 20000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 72,
+    "nama_wisata": "Pantai Mandiri",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai tanpa batu karang dengan garis pantai luas. Lokasi terbaik untuk melihat sunset tanpa penghalang.",
+    "lokasi": "Krui",
+    "fasilitas": "Pondokan pinggir pantai, area parkir, penginapan",
+    "harga_tiket": 5000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 73,
+    "nama_wisata": "Air Terjun Way Tayas",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Terletak di lereng Gunung Rajabasa. Udara yang sangat murni dan air yang mengandung mineral alami.",
+    "lokasi": "Kalianda",
+    "fasilitas": "Jalur trekking, tempat ganti, warung",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 74,
+    "nama_wisata": "Dam Raman",
+    "kategori_wisata": "Wisata Air",
+    "deskripsi": "Bendungan peninggalan Belanda yang kini jadi pusat rekreasi air modern dengan bebek-bebekan.",
+    "lokasi": "Metro",
+    "fasilitas": "Sepeda air, spot memancing, jembatan gantung",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 75,
+    "nama_wisata": "Pantai Kedu Warna",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Menawarkan sensasi berkemah di tepi pantai dengan fasilitas api unggun. Sangat estetik di malam hari.",
+    "lokasi": "Kalianda",
+    "fasilitas": "Camping ground, persewaan tenda, cafe kayu",
+    "harga_tiket": 20000,
+    "jam_buka": "08.00 - 22.00"
+  },
+  {
+    "id": 76,
+    "nama_wisata": "Pantai Bagus Kalianda",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai dengan deretan pohon kelapa yang simetris. Sangat teduh, cocok untuk piknik keluarga besar.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Gazebo, area parkir luas, warung makan",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 77,
+    "nama_wisata": "Taman Purbakala Pugung Raharjo",
+    "kategori_wisata": "Wisata Sejarah",
+    "deskripsi": "Situs arkeologi dengan peninggalan punden berundak dan benteng tanah. Nilai edukasi sejarah yang tinggi.",
+    "lokasi": "Lampung Timur",
+    "fasilitas": "Museum kecil, pemandu sejarah, area hijau",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 16.00"
+  },
+  {
+    "id": 78,
+    "nama_wisata": "Bendungan Batutegi",
+    "kategori_wisata": "Wisata Air",
+    "deskripsi": "Salah satu bendungan terbesar di Asia Tenggara. Pemandangan air yang luas dikelilingi perbukitan hijau.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Dermaga, perahu sewa, spot foto, mushola",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 79,
+    "nama_wisata": "Pantai Batu Granit",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Gugusan batu granit raksasa yang tertata alami. Menawarkan lanskap unik seperti di luar negeri.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Spot foto, area trekking, gazebo",
+    "harga_tiket": 20000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 80,
+    "nama_wisata": "Air Terjun Curup Tujuh",
+    "kategori_wisata": "Wisata Petualangan",
+    "deskripsi": "Air terjun tujuh tingkat yang menantang. Butuh stamina ekstra untuk mengeksplorasi setiap tingkatannya.",
+    "lokasi": "Lampung Tengah",
+    "fasilitas": "Jalur hutan, area camping, pemandu warga",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 16.00"
+  },
+  {
+    "id": 81,
+    "nama_wisata": "Pantai Kahai",
+    "kategori_wisata": "Wisata Bahari & Resort",
+    "deskripsi": "Kombinasi pantai dan kolam renang waterboom. Pilihan utama untuk wisata keluarga di akhir pekan.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Resort, waterpark, restoran, meeting room",
+    "harga_tiket": 30000,
+    "jam_buka": "08.00 - 20.00"
+  },
+  {
+    "id": 82,
+    "nama_wisata": "Puncak Mas (Night View)",
+    "kategori_wisata": "Wisata Modern",
+    "deskripsi": "Menikmati gemerlap lampu kota Bandar Lampung dari ketinggian. Suasana romantis dengan udara malam yang dingin.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Cafe, rumah pohon, live music",
+    "harga_tiket": 20000,
+    "jam_buka": "08.00 - 22.00"
+  },
+  {
+    "id": 83,
+    "nama_wisata": "Pulau Balak",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pulau dengan pasir putih yang sangat halus. Air lautnya tenang, sangat ideal untuk berenang dan bersantai.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Dermaga kayu, spot snorkeling, pantai bersih",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 17.00"
+  },
+  {
+    "id": 84,
+    "nama_wisata": "Air Terjun Way Kalam",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Air terjun di balik rimbunnya hutan tropis. Suara air jatuh memberikan terapi relaksasi yang sangat nyaman.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Gazebo kayu, tangga beton, warung kopi",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 85,
+    "nama_wisata": "Masjid Terapung Al-Amin",
+    "kategori_wisata": "Wisata Religi",
+    "deskripsi": "Masjid indah yang berada di atas laut. Destinasi religi dengan arsitektur menawan dan suasana damai.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Tempat ibadah, area parkir, spot foto",
+    "harga_tiket": 0,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 86,
+    "nama_wisata": "Pantai Tapak Kera",
+    "kategori_wisata": "Wisata Petualangan",
+    "deskripsi": "Jalur menuju lokasi cukup menantang tetapi terbayar dengan pemandangan tebing karang yang gagah.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Jalur trekking, pemandu lokal",
+    "harga_tiket": 10000,
+    "jam_buka": "07.00 - 17.30"
+  },
+  {
+    "id": 87,
+    "nama_wisata": "Kebun Jeruk Gisting",
+    "kategori_wisata": "Agrowisata",
+    "deskripsi": "Wisata petik buah jeruk segar langsung dari pohonnya. Aktivitas seru untuk edukasi anak dan keluarga.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Area petik buah, kantin, spot foto",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 16.00"
+  },
+  {
+    "id": 88,
+    "nama_wisata": "Taman Kupu-Kupu Gita Persada",
+    "kategori_wisata": "Ekowisata",
+    "deskripsi": "Konservasi ratusan spesies kupu-kupu. Lingkungan asri yang sangat baik untuk pengenalan alam bagi siswa.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Museum kupu-kupu, rumah pohon, kantin",
+    "harga_tiket": 15000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 89,
+    "nama_wisata": "Pantai Sandaran Galangan",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Pantai dengan bangkai kapal tua yang artistik. Menjadi daya tarik utama bagi pecinta fotografi konsep industrial.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Spot foto unik, gazebo",
+    "harga_tiket": 10000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 90,
+    "nama_wisata": "Air Terjun Curup Jenggala",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Air terjun dengan jembatan cinta yang ikonik. Sangat populer di kalangan pasangan muda untuk berfoto.",
+    "lokasi": "Lampung Tengah",
+    "fasilitas": "Selfie deck, warung, mushola",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 91,
+    "nama_wisata": "Pantai Somil",
+    "kategori_wisata": "Wisata Bahari",
+    "deskripsi": "Garis pantai luas dengan deburan ombak yang konsisten. Tempat yang tenang untuk menikmati kesendirian.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Area parkir, warung lokal",
+    "harga_tiket": 5000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 92,
+    "nama_wisata": "Kampung Vietnam",
+    "kategori_wisata": "Wisata Modern",
+    "deskripsi": "Area perbukitan dengan villa dan cafe bergaya unik. Menyuguhkan pemandangan lembah hijau yang sangat segar.",
+    "lokasi": "Bandar Lampung",
+    "fasilitas": "Villa, cafe, spot foto, playground",
+    "harga_tiket": 15000,
+    "jam_buka": "09.00 - 21.00"
+  },
+  {
+    "id": 93,
+    "nama_wisata": "Pantai Karang Bolong",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Tebing karang yang memiliki lubang besar akibat proses alami. Keajaiban geologi yang memukau mata.",
+    "lokasi": "Lampung Selatan",
+    "fasilitas": "Gazebo, spot foto, area pancing",
+    "harga_tiket": 15000,
+    "jam_buka": "07.00 - 18.00"
+  },
+  {
+    "id": 94,
+    "nama_wisata": "Puncak Cendana",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Bukit pinus dengan udara yang sangat harum dan sejuk. Tempat terbaik untuk hammocking di sela pepohonan.",
+    "lokasi": "Pesawaran",
+    "fasilitas": "Camping ground, hammock, kedai kopi",
+    "harga_tiket": 10000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 95,
+    "nama_wisata": "Pantai Muara Indah",
+    "kategori_wisata": "Wisata Bahari Keluarga",
+    "deskripsi": "Pantai yang sudah ditata rapi oleh pemerintah daerah. Dilengkapi taman bermain dan patung lumba-lumba raksasa.",
+    "lokasi": "Kota Agung",
+    "fasilitas": "Jogging track, patung ikonik, food court",
+    "harga_tiket": 10000,
+    "jam_buka": "07.00 - 20.00"
+  },
+  {
+    "id": 96,
+    "nama_wisata": "Air Terjun Bakoman",
+    "kategori_wisata": "Wisata Alam",
+    "deskripsi": "Air terjun dengan aliran air yang menyerupai tirai halus. Tersembunyi di area perkebunan warga.",
+    "lokasi": "Tanggamus",
+    "fasilitas": "Jalur setapak, gazebo sederhana",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 97,
+    "nama_wisata": "Pantai Tanjung Tua",
+    "kategori_wisata": "Wisata Petualangan",
+    "deskripsi": "Titik paling ujung selatan Sumatera. Pemandangan kapal-kapal besar yang melintasi Selat Sunda.",
+    "lokasi": "Bakauheni",
+    "fasilitas": "Spot pancing, area trekking tebing",
+    "harga_tiket": 10000,
+    "jam_buka": "24 Jam"
+  },
+  {
+    "id": 98,
+    "nama_wisata": "Bendungan Argo Guruh",
+    "kategori_wisata": "Wisata Air & Sejarah",
+    "deskripsi": "Bendungan peninggalan zaman Belanda dengan sistem irigasi yang masih aktif. Arsitektur klasik dan kokoh.",
+    "lokasi": "Lampung Tengah",
+    "fasilitas": "Spot foto sejarah, taman tepi air",
+    "harga_tiket": 5000,
+    "jam_buka": "08.00 - 17.00"
+  },
+  {
+    "id": 99,
+    "nama_wisata": "Bukit Pangonan Pringsewu",
+    "kategori_wisata": "Wisata Keluarga",
+    "deskripsi": "Memiliki berbagai wahana kreatif dan jembatan gantung. Suasana pedesaan yang asri dan menenangkan.",
+    "lokasi": "Pringsewu",
+    "fasilitas": "Flying fox, jembatan gantung, kantin",
+    "harga_tiket": 15000,
+    "jam_buka": "08.00 - 18.00"
+  },
+  {
+    "id": 100,
+    "nama_wisata": "Pusat Latihan Gajah (PLG) Karangsari",
+    "kategori_wisata": "Ekowisata",
+    "deskripsi": "Interaksi langsung dengan gajah jinak di area terbuka. Program edukasi pelestarian gajah sumatera yang mendalam.",
+    "lokasi": "Lampung Timur",
+    "fasilitas": "Pusat informasi, pemandu, area terbuka",
+    "harga_tiket": 15000,
+    "jam_buka": "08.00 - 16.00"
+  }
+]
