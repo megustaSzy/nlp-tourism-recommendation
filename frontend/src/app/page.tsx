@@ -1,53 +1,50 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Search, MapPin, Navigation2, Star, Clock, Info } from "lucide-react";
+import { useQuery, useMutation } from "@tanstack/react-query";
 
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [allWisata, setAllWisata] = useState([]);
-
   const [hasSearched, setHasSearched] = useState(false);
 
-  useEffect(() => {
-    // Fetch all wisata initially
-    fetch(`${process.env.NEXT_PUBLIC_API_URL || '/api'}/wisata`)
-      .then((res) => res.json())
-      .then((data) => setAllWisata(data))
-      .catch((err) => console.error("Failed to load wisata", err));
-  }, []);
+  // 1. Get all wisata (Auto caching & background refetch)
+  const { data: allWisata = [] } = useQuery({
+    queryKey: ["allWisata"],
+    queryFn: async () => {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || '/api'}/wisata`);
+      if (!res.ok) throw new Error("Failed to fetch wisata");
+      return res.json();
+    },
+  });
 
-  const handleSearch = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!query.trim()) {
-      setResults([]);
-      setHasSearched(false);
-      return;
-    }
-
-    setIsLoading(true);
-    setHasSearched(true);
-    try {
+  // 2. Search mutation (Handles loading states & deduplication)
+  const searchMutation = useMutation({
+    mutationFn: async (searchQuery: string) => {
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || '/api'}/search`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query }),
+        body: JSON.stringify({ query: searchQuery }),
       });
+      if (!res.ok) throw new Error("Search failed");
       const data = await res.json();
-      if (data.status === "success") {
-        setResults(data.results || []);
-      } else {
-        setResults([]);
-      }
-    } catch (err) {
-      console.error("Search failed", err);
-      setResults([]);
-    } finally {
-      setIsLoading(false);
+      return data.status === "success" ? data.results || [] : [];
+    },
+  });
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!query.trim()) {
+      searchMutation.reset();
+      setHasSearched(false);
+      return;
     }
+    setHasSearched(true);
+    searchMutation.mutate(query);
   };
+
+  const isLoading = searchMutation.isPending;
+  const results = searchMutation.data || [];
 
   const displayData = hasSearched ? results : allWisata;
 
@@ -107,7 +104,7 @@ export default function Home() {
             </h2>
             <button
               onClick={() => {
-                setResults([]);
+                searchMutation.reset();
                 setQuery("");
                 setHasSearched(false);
               }}
