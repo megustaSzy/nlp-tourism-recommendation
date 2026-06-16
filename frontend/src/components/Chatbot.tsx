@@ -124,7 +124,7 @@ export default function Chatbot() {
           className={`fixed z-50 overflow-hidden font-sans bg-slate-900 border border-slate-700 shadow-2xl flex flex-col transition-all duration-300 ${
             isFullscreen 
               ? "top-0 left-0 right-0 bottom-0 w-full h-full rounded-none" 
-              : "bottom-6 right-6 w-[380px] h-[600px] max-h-[85vh] rounded-2xl"
+              : "bottom-4 right-4 w-[calc(100vw-2rem)] md:bottom-6 md:right-6 md:w-[380px] h-[600px] max-h-[85vh] rounded-2xl"
           }`}
         >
           {/* Header */}
