@@ -106,7 +106,7 @@ def health_check():
     return {
         "status": 200,
         "message": "success",
-        "service": "LUMIARA NLP API (FastAPI)"
+        "service": "LUMINAIRA NLP API (FastAPI)"
     }
 
 @app.post('/api/search')
@@ -200,11 +200,11 @@ def chat_bot(req: ChatRequest):
         if req.history:
             history_text = "Riwayat Percakapan (5 Terakhir):\n"
             for msg in req.history:
-                sender = "Pengguna" if msg.get("sender") == "user" else "LUMIARA"
+                sender = "Pengguna" if msg.get("sender") == "user" else "LUMINAIRA"
                 history_text += f"{sender}: {msg.get('text')}\n"
             history_text += "\n"
 
-        system_prompt = f"""Kamu adalah LUMIARA, asisten wisata Lampung yang gaul dan ramah. Balas dengan bahasa Indonesia yang santai dan natural. Jika soal wisata, gunakan DATA di bawah (jangan mengarang). Jika ngobrol santai, balas layaknya teman.
+        system_prompt = f"""Kamu adalah LUMINAIRA, asisten wisata Lampung yang gaul dan ramah. Balas dengan bahasa Indonesia yang santai dan natural. Jika soal wisata, gunakan DATA di bawah (jangan mengarang). Jika ngobrol santai, balas layaknya teman.
 
 PENTING: Output jawabanmu HARUS dalam format JSON dengan tiga key:
 1. "reply": string berisi teks jawabanmu untuk pengguna.

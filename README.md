@@ -1,6 +1,6 @@
-# LUMIARA - Smart Tourism Village Lampung 🏝️
+# LUMINAIRA - Smart Tourism Village Lampung 🏝️
 
-LUMIARA adalah platform sistem rekomendasi wisata pintar berbasis **Natural Language Processing (NLP)** yang berfokus pada desa wisata di Provinsi Lampung. Pengguna dapat mencari destinasi wisata menggunakan bahasa sehari-hari (natural language), dan sistem akan memberikan rekomendasi yang paling relevan menggunakan algoritma TF-IDF dan Cosine Similarity.
+LUMINAIRA adalah platform sistem rekomendasi wisata pintar berbasis **Natural Language Processing (NLP)** yang berfokus pada desa wisata di Provinsi Lampung. Pengguna dapat mencari destinasi wisata menggunakan bahasa sehari-hari (natural language), dan sistem akan memberikan rekomendasi yang paling relevan menggunakan algoritma TF-IDF dan Cosine Similarity.
 
 ---
 
@@ -88,4 +88,4 @@ Setelah semua layanan berjalan, buka browser di `http://localhost:3000`.
 
 ---
 
-© 2026 LUMIARA Project - Developed for Lampung Tourism Innovation.
+© 2026 LUMINAIRA Project - Developed for Lampung Tourism Innovation.

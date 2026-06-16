@@ -63,7 +63,7 @@ export default function Home() {
           ✨ NLP Powered Smart Search
         </div>
         <h1 className="text-5xl md:text-7xl font-bold font-heading mb-6 tracking-tight">
-          LUMIARA
+          LUMINAIRA
           <span className="block text-3xl md:text-4xl mt-2 text-slate-400 font-medium">
             Smart Tourism Village Lampung
           </span>

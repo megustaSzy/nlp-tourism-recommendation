@@ -14,7 +14,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "LUMIARA - Smart Tourism Village Lampung",
+  title: "LUMINAIRA - Smart Tourism Village Lampung",
   description: "Temukan destinasi wisata di Lampung secara cepat dan relevan menggunakan pencarian pintar.",
 };
 

@@ -27,7 +27,7 @@ export default function Chatbot() {
     {
       id: "1",
       sender: "bot",
-      text: "Halo! Saya adalah Asisten Wisata LUMIARA. Ceritakan liburan seperti apa yang sedang Anda cari di Lampung?",
+      text: "Halo! Saya adalah Asisten Wisata LUMINAIRA. Ceritakan liburan seperti apa yang sedang Anda cari di Lampung?",
     },
   ]);
   const [input, setInput] = useState("");
@@ -117,7 +117,7 @@ export default function Chatbot() {
             <div>
               <h3 className="font-bold text-white flex items-center gap-2">
                 <MessageCircle size={20} className="text-blue-400" />
-                LUMIARA Assistant
+                LUMINAIRA Assistant
               </h3>
               <p className="text-xs text-slate-400 mt-1 flex items-center gap-1">
                 <span className="w-2 h-2 rounded-full bg-green-500"></span> Online
