@@ -55,13 +55,15 @@ export default function Chatbot() {
     setInput("");
     setIsLoading(true);
 
+    const history = messages.slice(-5).map(m => ({ sender: m.sender, text: m.text }));
+
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_NLP_API_URL || 'http://localhost:5000/api'}/chat`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_NLP_API_URL}/chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ message: userMessage.text }),
+        body: JSON.stringify({ message: userMessage.text, history }),
       });
 
       const data = await res.json();

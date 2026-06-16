@@ -13,7 +13,7 @@ export default function Home() {
 
   useEffect(() => {
     // Fetch all wisata initially
-    fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api'}/wisata`)
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || '/api'}/wisata`)
       .then((res) => res.json())
       .then((data) => setAllWisata(data))
       .catch((err) => console.error("Failed to load wisata", err));
@@ -30,7 +30,7 @@ export default function Home() {
     setIsLoading(true);
     setHasSearched(true);
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api'}/search`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || '/api'}/search`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
