@@ -20,6 +20,21 @@ interface Message {
   results?: WisataResult[];
 }
 
+const formatText = (text: string) => {
+  if (!text) return "";
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return (
+    <>
+      {parts.map((part, index) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+          return <strong key={index} className="font-bold text-blue-200">{part.slice(2, -2)}</strong>;
+        }
+        return <span key={index}>{part}</span>;
+      })}
+    </>
+  );
+};
+
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -151,13 +166,13 @@ export default function Chatbot() {
                 }`}
               >
                 <div
-                  className={`max-w-[85%] p-3 rounded-2xl ${
+                  className={`max-w-[85%] p-3 rounded-2xl whitespace-pre-wrap ${
                     msg.sender === "user"
                       ? "bg-blue-600 text-white rounded-br-sm"
                       : "bg-slate-800 text-slate-200 border border-slate-700 rounded-bl-sm"
                   } text-sm leading-relaxed`}
                 >
-                  {msg.text}
+                  {formatText(msg.text)}
                 </div>
 
                 {/* Recommendations */}

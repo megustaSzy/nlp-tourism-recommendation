@@ -88,7 +88,7 @@ model_flash = genai.GenerativeModel(
     )
 )
 model_pro = genai.GenerativeModel(
-    model_name='gemini-2.0-flash',
+    model_name='gemini-2.5-flash-lite',
     generation_config=genai.types.GenerationConfig(
         temperature=0.7,
     )
